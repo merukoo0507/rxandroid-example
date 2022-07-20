@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Example1Fragment">
+
+    <fragment
+        android:id="@+id/Example1Fragment"
+        android:name="com.example.rxandroid_example.Example1Fragment"
+        android:label="Example1"
+        tools:layout="@layout/fragment_example1" >
+        <action
+            android:id="@+id/action_Example1Fragment_to_Example2Fragment"
+            app:destination="@id/Example2Fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/Example2Fragment"
+        android:name="com.example.rxandroid_example.Example2Fragment"
+        android:label="Example2"
+        tools:layout="@layout/fragment_example2">
+    </fragment>
+    <fragment
+        android:id="@+id/Example3Fragment"
+        android:name="com.example.rxandroid_example.Example3Fragment"
+        android:label="Example3"
+        tools:layout="@layout/fragment_example3" >
+    </fragment>
+</navigation>

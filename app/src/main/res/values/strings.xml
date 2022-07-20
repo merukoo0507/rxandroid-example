@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">rxandroid-example</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="setting_fragment">Setting Fragment</string>
+    <string name="terms">Terms &amp; Condictions</string>
+</resources>
