@@ -9,10 +9,11 @@ android {
 
     defaultConfig {
         applicationId "com.example.rxandroid_example"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -46,4 +47,12 @@ dependencies {
     // Navigation Component dependencies
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    def timberVersion = '4.7.1'
+    implementation "com.jakewharton.timber:timber:$timberVersion"
+    implementation 'com.android.support:multidex:1.0.3'
+
+    // rxjava3
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
 }

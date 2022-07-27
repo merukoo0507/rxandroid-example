@@ -27,7 +27,15 @@ class MainActivity : AppCompatActivity() {
 
         // 為底部導航欄設置Actionbar配置、NavController
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.Example1Fragment, R.id.Example2Fragment, R.id.Example3Fragment),
+            setOf(R.id.Example1Fragment,
+                R.id.Example2Fragment,
+                R.id.Example3Fragment,
+                R.id.Example4Fragment,
+                R.id.Example5Fragment,
+                R.id.Example6Fragment,
+                R.id.Example7Fragment,
+                R.id.Example8Fragment,
+            ),
             drawer_layout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

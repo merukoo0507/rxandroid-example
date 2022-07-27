@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Example5Fragment">
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -28,11 +29,12 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@id/guideline4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
