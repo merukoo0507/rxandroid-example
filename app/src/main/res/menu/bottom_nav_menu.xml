@@ -13,4 +13,24 @@
         android:id="@+id/Example3Fragment"
         android:title="Example3"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/Example4Fragment"
+        android:title="Example4"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Example5Fragment"
+        android:title="Example5"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Example6Fragment"
+        android:title="Example6"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Example7Fragment"
+        android:title="Example7"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Example8Fragment"
+        android:title="Example8"
+        app:showAsAction="never" />
 </menu>

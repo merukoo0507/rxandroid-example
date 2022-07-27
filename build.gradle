@@ -3,8 +3,8 @@ buildscript {
     ext.kotlin_version = "1.5.20"
     ext.nav_version = "2.3.0"
     repositories {
-        mavenCentral()
         google()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.0'
@@ -16,9 +16,9 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         mavenCentral()
         jcenter()
-        google()
     }
 }
 

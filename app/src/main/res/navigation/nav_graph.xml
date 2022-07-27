@@ -30,4 +30,31 @@
         android:label="Example3"
         tools:layout="@layout/fragment_example3" >
     </fragment>
+    <fragment
+        android:id="@+id/Example4Fragment"
+        android:name="com.example.rxandroid_example.Example4Fragment"
+        android:label="Example4"
+        tools:layout="@layout/fragment_example4" >
+    </fragment>
+    <fragment
+        android:id="@+id/Example5Fragment"
+        android:name="com.example.rxandroid_example.Example5Fragment"
+        android:label="fragment_example5"
+        tools:layout="@layout/fragment_example5" />
+    <fragment
+        android:id="@+id/Example6Fragment"
+        android:name="com.example.rxandroid_example.Example6Fragment"
+        android:label="Example6Fragment"
+        tools:layout="@layout/fragment_example6" />
+    <fragment
+        android:id="@+id/Example7Fragment"
+        android:name="com.example.rxandroid_example.Example7Fragment"
+        android:label="Example7"
+        tools:layout="@layout/fragment_example7" />
+    <fragment
+        android:id="@+id/Example8Fragment"
+        android:name="com.example.rxandroid_example.Example8Fragment"
+        android:label="Example8"
+        tools:layout="@layout/fragment_example8" >
+    </fragment>
 </navigation>
